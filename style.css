@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-  /* Style the body */
+
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -10,12 +10,12 @@
   }
   
   
-  /* Increase the font size of the heading */
+
   .header h1 {
     font-size: 40px;
   }
   
-  /* Style the top navigation bar */
+
   .navbar {
     overflow: hidden;
     background-color: #333;
@@ -24,7 +24,7 @@
     z-index: 999;
   }
   
-  /* Style the navigation bar links */
+
   .navbar a, span {
     float: left;
     display: block;
@@ -34,12 +34,12 @@
     text-decoration: none;
   }
   
-  /* Right-aligned link */
+
   .navbar span {
     float: right;  
   }
   
-  /* Change color on hover */
+
   .navbar a:hover {
     background-color: #ddd;
     color: black;
@@ -50,7 +50,7 @@
     background-color: rgb(32, 102, 32);
   }
   
-  /* Column container */
+
   .row {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -65,7 +65,7 @@
   
 
   
-  /* Main column */
+
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
@@ -127,5 +127,16 @@
     }
     .row {           
         width: 100%;
-    }    
+    }  
+    .main .logo {
+      /* display: none; */
+      float: left;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      object-position: center;
+      padding: 0;
+      border-radius: 5%;
+      margin-right: 5%;
+    }  
   }
